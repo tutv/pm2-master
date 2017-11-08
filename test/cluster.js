@@ -2,6 +2,7 @@ const cluster = require('cluster');
 const pm2Master = require('../index');
 
 const assert = require('assert');
+const Assertion = require('should');
 
 describe('Clustering.', () => {
     it('should return true', () => {
