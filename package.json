@@ -1,6 +1,6 @@
 {
   "name": "pm2-master",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Check process is master when run with PM2.",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/tutv95/pm2-master/issues"
   },
-  "homepage": "https://github.com/tutv95/pm2-master#readme"
+  "homepage": "https://github.com/tutv95/pm2-master#readme",
+  "devDependencies": {
+    "express": "^4.16.2"
+  }
 }
