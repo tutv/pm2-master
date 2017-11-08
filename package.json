@@ -1,7 +1,7 @@
 {
   "name": "pm2-master",
   "version": "1.0.0",
-  "description": "",
+  "description": "Check process is master when run with PM2.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/tutv95/pm2-master.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "pm2",
+    "isMaster",
+    "master",
+    "cluster"
+  ],
+  "author": "Tu TV <tutv95@gmail.com> (http://blogk.xyz)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tutv95/pm2-master/issues"
